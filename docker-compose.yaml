@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  app:
+    image: "r1zak/docker-example"
+    ports:
+      - "3000:80"
